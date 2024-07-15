@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #04141f;
+    color: aliceblue;
+}
+
+
+.header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: #04141f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: transparent; */
+    box-sizing: border-box;
+
+}
+
+.name {
+    align-self: flex-start;
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 400;
+    margin-left: 35px;
+    transition: 2s;
+
+}
+
+.navbar a:hover {
+    color: rgb(105, 161, 216);
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.home {
+    display: flex;
+    justify-content: centre;
+    margin-top: 100px;
+    flex-direction: column;
+    margin-left: 50px;
+    padding-left: 10px;
+    width: 700px;
+}
+
+.home content {
+    width: 200px;
+}
+
+.home h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: aliceblue
+}
+
+.home h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.home p {
+    font-size: 16px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.btn a {
+    display: inline-flex;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 10px;
+    color: rgb(26, 23, 23);
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: 1px;
+    transition: 1s;
+
+}
+
+.btn a:hover {
+    color: aliceblue;
+}
+
+#talk {
+    background: transparent;
+    color: #00abf0;
+}
+
+#talk:hover {
+    color: aliceblue;
+}
+
+.circle {
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url("Image.jpg");
+    background-size: 100%;
+
+}
+
+.main {
+    margin: 50px auto 0px auto;
+    padding-top: 20px;
+}
+
+.skills-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content {
+    margin-top: 80px;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    justify-content: center;
+    font-size: 2rem;
+    background: transparent;
+    color: #00abf0;
+    transition-duration: 2s;
+}
+
+.content:hover {
+    color: aliceblue;
+
+}
+
+.main a {
+    transition-duration: 2s;
+    margin-left: 45%;
+    font-size: 60px;
+    color: aliceblue;
+    font-weight: 600
+}
+
+.main a:hover {
+    color: rgb(105, 161, 216);
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.main2 a {
+    transition-duration: 2s;
+    margin-left: 45%;
+    font-size: 60px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.main2 a:hover {
+
+    color: rgb(105, 161, 216);
+    font-size: 70px;
+    font-weight: 700;
+
+}
+#projects a{
+
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 60px;
+    text-decoration: underline;
+
+}
+#projects a:hover{
+    color: rgb(105, 161, 216);
+    font-size: 70px;
+    font-weight: 700;
+    transition:2s;
+
+}
+#projects p{
+    font-size: 25px;
+    text-align: center;
+}
+#projects p a{
+    font-size: 25px;
+}
+#projects p a:hover{
+    font-weight: 600;
+    font-size: 50px;
+
+}
+#certificates a{
+
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 60px;
+    text-decoration: underline;
+
+}
+.certi1{
+    justify-content: space-evenly;
+    margin-left: 20%;
+}
+
+#contact a{
+
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 60px;
+    text-decoration: underline;
+    
+
+}
+
+.contact2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#contact{
+    text-align: center;
+}
+#contact a{
+
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 60px;
+    text-decoration: underline;
+    
+
+}
+.contact2 div div img{
+    width: 55px;
+}
+
+.contact2 div div img:hover{
+    width: 65px;
+}
+
+.contact2 img , .contact2{
+    margin: 0px 50px;
+    border-radius: 15px;
+}
+.accounts h3{
+    font-size: 40px;
+}
